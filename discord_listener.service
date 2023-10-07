@@ -1,0 +1,14 @@
+[Unit]
+Description=discord listener service
+
+[Service]
+User=root
+Group=root
+Type=simple
+WorkingDirectory=/home/discord-listener
+ExecStart=/usr/local/bin/pipenv run python3 /home/discord-listener/discord_listener_app.py
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

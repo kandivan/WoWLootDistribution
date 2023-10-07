@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+redis = "*"
+sqlalchemy = "*"
+discord = "*"
+dash = "*"
+flask = "*"
+flask-login = "*"
+flask-bcrypt = "*"
+flask-wtf = "*"
+boto3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
