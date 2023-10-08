@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Column, Integer, String, DateTime, ForeignKey, JSON, func
+from sqlalchemy import create_engine, Column, Integer, String, DateTime, ForeignKey, JSON, Boolean, func
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from flask_login import UserMixin
@@ -24,10 +24,32 @@ class Item(Base):
     __tablename__ = 'items'
     
     id = Column(Integer, primary_key = True)
-    in_game_id = Column(Integer)
     name = Column(String(300))
+    icon = Column(String(300))
+    type = Column(Integer)
+    armorType = Column(Integer)
+    weaponType = Column(Integer)
+    handType = Column(Integer)
+    weaponDamageMin = Column(Integer)
+    weaponDamageMax = Column(Integer)
+    weaponSpeed = Column(Integer)
+    stats = Column(JSON())
+    gemSockets = Column(JSON())
+    socketBonus = Column(JSON())
     ilvl = Column(Integer)
-
+    phase = Column(Integer)
+    quality = Column(Integer)
+    classAllowlist = Column(JSON())
+    setName = Column(String(300))
+    expansion = Column(Integer)
+    sources = Column(JSON())
+    unique = Column(Boolean())
+    rangedWeaponType = Column(Integer)
+    rangedWeaponDamageMin = Column(Integer)
+    rangedWeaponDamageMax = Column(Integer)
+    rangedWeaponSpeed = Column(Integer)
+    factionRestriction = Column(Integer)
+    heroic = Column(Boolean())
 class User(Base, UserMixin):
     
     __tablename__ = 'users'

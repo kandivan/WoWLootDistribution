@@ -1,0 +1,3502 @@
+{"simSettings": [{
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceHuman",
+              "class": "ClassWarlock",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 47789,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 45243,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47781,
+                    "enchant": 3810,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 48672,
+                    "enchant": 3722,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47791,
+                    "enchant": 3832,
+                    "gems": [
+                      40113,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 45446,
+                    "enchant": 2332,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47782,
+                    "enchant": 3604,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 46973,
+                    "enchant": 3601,
+                    "gems": [
+                      40133,
+                      40113,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 45488,
+                    "enchant": 3872,
+                    "gems": [
+                      45883,
+                      40155,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47205,
+                    "enchant": 3606,
+                    "gems": [
+                      40113,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47732
+                  },
+                  {
+                    "id": 45168,
+                    "enchant": 3840
+                  },
+                  {
+                    "id": 45518
+                  },
+                  {
+                    "id": 45148
+                  },
+                  {
+                    "id": 46980,
+                    "enchant": 3834,
+                    "gems": [
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 45617
+                  },
+                  {
+                    "id": 45294,
+                    "gems": [
+                      40113
+                    ]
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "petFood": "PetFoodSpicedMammothTreats",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "blessingOfMight": "TristateEffectImproved",
+                "tricksOfTheTrades": 2,
+                "vampiricTouch": true,
+                "focusMagic": true
+              },
+              "warlock": {
+                "rotation": {
+                  "curse": "Agony",
+                  "primarySpell": "ShadowBolt",
+                  "secondaryDot": "UnstableAffliction",
+                  "corruption": true,
+                  "detonateSeed": true,
+                  "specSpell": "Haunt"
+                },
+                "options": {
+                  "armor": "FelArmor",
+                  "summon": "Felhunter",
+                  "weaponImbue": "GrandSpellstone"
+                }
+              },
+              "talentsString": "2350002030023510253500331151-000000000000000000000000000-55000005100000000000000000",
+              "glyphs": {
+                "major1": 50077,
+                "major2": 45785,
+                "major3": 45779,
+                "minor1": 43389,
+                "minor2": 43394,
+                "minor3": 43390
+              },
+              "profession1": "Engineering",
+              "profession2": "Tailoring",
+              "cooldowns": {
+                "cooldowns": [
+                  {
+                    "id": {
+                      "itemId": 40212
+                    }
+                  },
+                  {
+                    "id": {
+                      "spellId": 54758
+                    }
+                  }
+                ]
+              },
+              "rotation": {},
+              "distanceFromTarget": 25,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {
+            "heroicPresence": true
+          }
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "powerWordFortitude": "TristateEffectImproved",
+        "strengthOfEarthTotem": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "trueshotAura": true,
+        "leaderOfThePack": "TristateEffectImproved",
+        "icyTalons": true,
+        "totemOfWrath": true,
+        "demonicPactSp": 500,
+        "moonkinAura": "TristateEffectImproved",
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "judgementOfLight": true,
+        "faerieFire": "TristateEffectImproved",
+        "ebonPlaguebringer": true,
+        "heartOfTheCrusader": true,
+        "totemOfWrath": true,
+        "shadowMastery": true,
+        "bloodFrenzy": true,
+        "sunderArmor": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            805,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 3000,
+      "randomSeed": "641709630",
+      "debugFirstIteration": true
+    }
+  },
+  {
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceHuman",
+              "class": "ClassWarlock",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 47789,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47144,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47792,
+                    "enchant": 3810,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47095,
+                    "enchant": 3722,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47129,
+                    "enchant": 1144,
+                    "gems": [
+                      40133,
+                      40155,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47208,
+                    "enchant": 2332,
+                    "gems": [
+                      40133,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47782,
+                    "enchant": 3604,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47977,
+                    "gems": [
+                      40155,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47790,
+                    "enchant": 3872,
+                    "gems": [
+                      40113,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47097,
+                    "enchant": 3606,
+                    "gems": [
+                      40133,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47237,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 46046,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 45466
+                  },
+                  {
+                    "id": 45518
+                  },
+                  {
+                    "id": 46980,
+                    "enchant": 3834,
+                    "gems": [
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47958,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 45294,
+                    "gems": [
+                      40113
+                    ]
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "petFood": "PetFoodSpicedMammothTreats",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "blessingOfMight": "TristateEffectImproved",
+                "tricksOfTheTrades": 2,
+                "vampiricTouch": true,
+                "focusMagic": true
+              },
+              "warlock": {
+                "rotation": {
+                  "curse": "Agony",
+                  "primarySpell": "ShadowBolt",
+                  "secondaryDot": "UnstableAffliction",
+                  "corruption": true,
+                  "detonateSeed": true,
+                  "specSpell": "Haunt"
+                },
+                "options": {
+                  "armor": "FelArmor",
+                  "summon": "Felhunter",
+                  "weaponImbue": "GrandSpellstone"
+                }
+              },
+              "talentsString": "2350002030023510253500331151-000000000000000000000000000-55000005100000000000000000",
+              "glyphs": {
+                "major1": 50077,
+                "major2": 45785,
+                "major3": 45779,
+                "minor1": 43389,
+                "minor2": 43394,
+                "minor3": 43390
+              },
+              "profession1": "Engineering",
+              "profession2": "Tailoring",
+              "cooldowns": {
+                "cooldowns": [
+                  {
+                    "id": {
+                      "itemId": 40212
+                    }
+                  },
+                  {
+                    "id": {
+                      "spellId": 54758
+                    }
+                  }
+                ]
+              },
+              "rotation": {},
+              "distanceFromTarget": 25,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {
+            "heroicPresence": true
+          }
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "powerWordFortitude": "TristateEffectImproved",
+        "strengthOfEarthTotem": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "trueshotAura": true,
+        "leaderOfThePack": "TristateEffectImproved",
+        "icyTalons": true,
+        "totemOfWrath": true,
+        "demonicPactSp": 500,
+        "moonkinAura": "TristateEffectImproved",
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "judgementOfLight": true,
+        "faerieFire": "TristateEffectImproved",
+        "ebonPlaguebringer": true,
+        "heartOfTheCrusader": true,
+        "totemOfWrath": true,
+        "shadowMastery": true,
+        "bloodFrenzy": true,
+        "sunderArmor": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            805,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 3000,
+      "randomSeed": "1279226807",
+      "debugFirstIteration": true
+    }
+  },
+  {
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceHuman",
+              "class": "ClassMage",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 47761,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47144,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47758,
+                    "enchant": 3810,
+                    "gems": [
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 46977,
+                    "enchant": 3722,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47129,
+                    "enchant": 3832,
+                    "gems": [
+                      40133,
+                      40155,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47143,
+                    "enchant": 2332,
+                    "gems": [
+                      40155,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47753,
+                    "enchant": 3604,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 45619,
+                    "enchant": 3601,
+                    "gems": [
+                      40155,
+                      40155,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47760,
+                    "enchant": 3872,
+                    "gems": [
+                      40153,
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 45135,
+                    "enchant": 3606,
+                    "gems": [
+                      40113,
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 46046,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47732
+                  },
+                  {
+                    "id": 45466
+                  },
+                  {
+                    "id": 47188
+                  },
+                  {
+                    "id": 47517,
+                    "enchant": 3834,
+                    "gems": [
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 47064
+                  },
+                  {
+                    "id": 45294,
+                    "gems": [
+                      40113
+                    ]
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic",
+                "defaultConjured": "ConjuredDarkRune",
+                "fillerExplosive": "ExplosiveSaroniteBomb"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "vampiricTouch": true
+              },
+              "mage": {
+                "rotation": {
+                  "type": "Fire",
+                  "blastWithoutMissileBarrageAboveManaPercent": 0.2,
+                  "only3ArcaneBlastStacksBelowManaPercent": 0.15,
+                  "pyroblastDelayMs": 150
+                },
+                "options": {
+                  "armor": "MoltenArmor",
+                  "focusMagicPercentUptime": 99,
+                  "focusMagicTarget": {},
+                  "reactionTimeMs": 300
+                }
+              },
+              "talentsString": "230005033100030000000000000000-0055031012302330053120300351-0000000000000000000000000000",
+              "glyphs": {
+                "major1": 42739,
+                "major2": 45737,
+                "major3": 42751,
+                "minor1": 43364,
+                "minor2": 43357,
+                "minor3": 43360
+              },
+              "profession1": "Engineering",
+              "profession2": "Tailoring",
+              "cooldowns": {},
+              "rotation": {},
+              "distanceFromTarget": 25,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {
+            "manaTideTotems": 1,
+            "heroicPresence": true
+          }
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "demonicPactSp": 250,
+        "swiftRetribution": true,
+        "elementalOath": true,
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "manaSpringTotem": "TristateEffectImproved",
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "misery": true,
+        "curseOfElements": true,
+        "heartOfTheCrusader": true,
+        "shadowMastery": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            574,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 30000,
+      "randomSeed": "2528595057",
+      "debugFirstIteration": true
+    }
+  },
+  {
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceHuman",
+              "class": "ClassMage",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 47761,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47144,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47758,
+                    "enchant": 3810,
+                    "gems": [
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 48671,
+                    "enchant": 3722,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47129,
+                    "enchant": 3832,
+                    "gems": [
+                      40133,
+                      40155,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47143,
+                    "enchant": 2332,
+                    "gems": [
+                      40155,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47753,
+                    "enchant": 3604,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47084,
+                    "gems": [
+                      40133,
+                      40113,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47755,
+                    "enchant": 3872,
+                    "gems": [
+                      40155,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47205,
+                    "enchant": 3606,
+                    "gems": [
+                      40133,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 46046,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47928,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 45466
+                  },
+                  {
+                    "id": 45518
+                  },
+                  {
+                    "id": 47524,
+                    "enchant": 3854,
+                    "gems": [
+                      40133,
+                      40113
+                    ]
+                  },
+                  {},
+                  {
+                    "id": 47922
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic",
+                "defaultConjured": "ConjuredDarkRune",
+                "fillerExplosive": "ExplosiveSaroniteBomb"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "vampiricTouch": true
+              },
+              "mage": {
+                "rotation": {
+                  "type": "Fire",
+                  "blastWithoutMissileBarrageAboveManaPercent": 0.2,
+                  "only3ArcaneBlastStacksBelowManaPercent": 0.15,
+                  "pyroblastDelayMs": 150
+                },
+                "options": {
+                  "armor": "MoltenArmor",
+                  "focusMagicPercentUptime": 99,
+                  "focusMagicTarget": {},
+                  "reactionTimeMs": 300
+                }
+              },
+              "talentsString": "230005033100030000000000000000-0055031012302330053120300351-0000000000000000000000000000",
+              "glyphs": {
+                "major1": 42739,
+                "major2": 45737,
+                "major3": 42751,
+                "minor1": 43364,
+                "minor2": 43357,
+                "minor3": 43360
+              },
+              "profession1": "Engineering",
+              "profession2": "Tailoring",
+              "cooldowns": {},
+              "rotation": {},
+              "distanceFromTarget": 25,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {
+            "manaTideTotems": 1,
+            "heroicPresence": true
+          }
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "demonicPactSp": 250,
+        "swiftRetribution": true,
+        "elementalOath": true,
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "manaSpringTotem": "TristateEffectImproved",
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "misery": true,
+        "curseOfElements": true,
+        "heartOfTheCrusader": true,
+        "shadowMastery": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            574,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 3000,
+      "randomSeed": "2584545661",
+      "debugFirstIteration": true
+    }
+  },
+  {
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceNightElf",
+              "class": "ClassDruid",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 48171,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 45243,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 48167,
+                    "enchant": 3810,
+                    "gems": [
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 48672,
+                    "enchant": 3859,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 48169,
+                    "enchant": 3832,
+                    "gems": [
+                      40155,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47143,
+                    "enchant": 2332,
+                    "gems": [
+                      40155,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 48163,
+                    "enchant": 3604,
+                    "gems": [
+                      42144,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47145,
+                    "gems": [
+                      40155,
+                      42144,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47190,
+                    "enchant": 3719,
+                    "gems": [
+                      40153,
+                      40133,
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 47097,
+                    "enchant": 3606,
+                    "gems": [
+                      40133,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 46046,
+                    "gems": [
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 45495,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47188
+                  },
+                  {
+                    "id": 45308
+                  },
+                  {
+                    "id": 46017,
+                    "enchant": 3834
+                  },
+                  {
+                    "id": 47064
+                  },
+                  {
+                    "id": 47670
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic",
+                "fillerExplosive": "ExplosiveSaroniteBomb"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "blessingOfMight": "TristateEffectImproved",
+                "vampiricTouch": true
+              },
+              "balanceDruid": {
+                "rotation": {
+                  "type": "Default",
+                  "mfUsage": "BeforeLunar",
+                  "isUsage": "OptimizeIs",
+                  "wrathUsage": "RegularWrath",
+                  "useStarfire": true,
+                  "useSmartCooldowns": true,
+                  "maintainFaerieFire": true,
+                  "playerLatency": 200
+                },
+                "options": {
+                  "innervateTarget": {}
+                }
+              },
+              "talentsString": "5102233115331303213305311031-000000000000000000000000000000-205003002000000000000000000",
+              "glyphs": {
+                "major1": 40916,
+                "major2": 40921,
+                "major3": 40923,
+                "minor1": 43331,
+                "minor2": 43335,
+                "minor3": 43674
+              },
+              "profession1": "Engineering",
+              "profession2": "Jewelcrafting",
+              "cooldowns": {},
+              "rotation": {},
+              "distanceFromTarget": 18,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "powerWordFortitude": "TristateEffectImproved",
+        "strengthOfEarthTotem": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "trueshotAura": true,
+        "leaderOfThePack": "TristateEffectImproved",
+        "icyTalons": true,
+        "totemOfWrath": true,
+        "demonicPactSp": 500,
+        "moonkinAura": "TristateEffectImproved",
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "faerieFire": "TristateEffectImproved",
+        "ebonPlaguebringer": true,
+        "heartOfTheCrusader": true,
+        "totemOfWrath": true,
+        "shadowMastery": true,
+        "bloodFrenzy": true,
+        "sunderArmor": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            805,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 3000,
+      "randomSeed": "3351714447",
+      "debugFirstIteration": true
+    }
+  },
+  {
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceHuman",
+              "class": "ClassPriest",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 46172,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      42144
+                    ]
+                  },
+                  {
+                    "id": 45133,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 46165,
+                    "enchant": 3810,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 46977,
+                    "enchant": 3831,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 48083,
+                    "enchant": 1144,
+                    "gems": [
+                      40113,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 45446,
+                    "enchant": 2332,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 45665,
+                    "enchant": 3604,
+                    "gems": [
+                      40133,
+                      40155,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 46973,
+                    "enchant": 3601,
+                    "gems": [
+                      40133,
+                      40113,
+                      42144
+                    ]
+                  },
+                  {
+                    "id": 48084,
+                    "enchant": 3719,
+                    "gems": [
+                      42144,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 45135,
+                    "enchant": 3606,
+                    "gems": [
+                      40113,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 46046,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47732
+                  },
+                  {
+                    "id": 45466
+                  },
+                  {
+                    "id": 47188
+                  },
+                  {
+                    "id": 47206,
+                    "enchant": 3834
+                  },
+                  {
+                    "id": 47958,
+                    "gems": [
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 45294,
+                    "gems": [
+                      40125
+                    ]
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "blessingOfMight": "TristateEffectImproved",
+                "vampiricTouch": true
+              },
+              "shadowPriest": {
+                "rotation": {
+                  "rotationType": "Ideal"
+                },
+                "options": {
+                  "useShadowfiend": true,
+                  "useMindBlast": true,
+                  "useShadowWordDeath": true,
+                  "latency": 100
+                }
+              },
+              "talentsString": "0503203100000000000000000000-000000000000000000000000000-325023051223010223152301351",
+              "glyphs": {
+                "major1": 42407,
+                "major2": 42415,
+                "major3": 45753,
+                "minor1": 43371,
+                "minor2": 43372,
+                "minor3": 43370
+              },
+              "profession1": "Enchanting",
+              "profession2": "Tailoring",
+              "cooldowns": {},
+              "rotation": {},
+              "reactionTimeMs": 200,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "powerWordFortitude": "TristateEffectImproved",
+        "strengthOfEarthTotem": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "trueshotAura": true,
+        "leaderOfThePack": "TristateEffectImproved",
+        "icyTalons": true,
+        "totemOfWrath": true,
+        "demonicPactSp": 500,
+        "moonkinAura": "TristateEffectImproved",
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "faerieFire": "TristateEffectImproved",
+        "ebonPlaguebringer": true,
+        "heartOfTheCrusader": true,
+        "totemOfWrath": true,
+        "bloodFrenzy": true,
+        "sunderArmor": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            805,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 3000,
+      "randomSeed": "1502121868",
+      "debugFirstIteration": true
+    }
+  },
+  {
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceHuman",
+              "class": "ClassPriest",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 46172,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 45933,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 46165,
+                    "enchant": 3810,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47095,
+                    "enchant": 3722,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 48080,
+                    "enchant": 3832,
+                    "gems": [
+                      40113,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47585,
+                    "enchant": 2332,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 46045,
+                    "enchant": 3246,
+                    "gems": [
+                      40113,
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 46973,
+                    "gems": [
+                      40133,
+                      40113,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 48079,
+                    "enchant": 3719,
+                    "gems": [
+                      40113,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47205,
+                    "enchant": 3826,
+                    "gems": [
+                      40133,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 46046,
+                    "enchant": 3840,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47732,
+                    "enchant": 3840
+                  },
+                  {
+                    "id": 47213
+                  },
+                  {
+                    "id": 45308
+                  },
+                  {
+                    "id": 47524,
+                    "enchant": 3854,
+                    "gems": [
+                      40133,
+                      40113
+                    ]
+                  },
+                  {},
+                  {
+                    "id": 45294,
+                    "gems": [
+                      40155
+                    ]
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "blessingOfMight": "TristateEffectImproved",
+                "vampiricTouch": true
+              },
+              "shadowPriest": {
+                "rotation": {
+                  "rotationType": "Ideal"
+                },
+                "options": {
+                  "useShadowfiend": true,
+                  "useMindBlast": true,
+                  "useShadowWordDeath": true,
+                  "latency": 100
+                }
+              },
+              "talentsString": "0503203100000000000000000000-000000000000000000000000000-325023051223010223152301351",
+              "glyphs": {
+                "major1": 42407,
+                "major2": 42415,
+                "major3": 45753,
+                "minor1": 43371,
+                "minor2": 43372,
+                "minor3": 43370
+              },
+              "profession1": "Enchanting",
+              "profession2": "Tailoring",
+              "cooldowns": {},
+              "rotation": {},
+              "reactionTimeMs": 200,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "powerWordFortitude": "TristateEffectImproved",
+        "strengthOfEarthTotem": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "trueshotAura": true,
+        "leaderOfThePack": "TristateEffectImproved",
+        "icyTalons": true,
+        "totemOfWrath": true,
+        "demonicPactSp": 500,
+        "moonkinAura": "TristateEffectImproved",
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "faerieFire": "TristateEffectImproved",
+        "ebonPlaguebringer": true,
+        "heartOfTheCrusader": true,
+        "totemOfWrath": true,
+        "bloodFrenzy": true,
+        "sunderArmor": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            805,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 3000,
+      "randomSeed": "1658884668",
+      "debugFirstIteration": true
+    }
+  },
+  {
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceNightElf",
+              "class": "ClassDruid",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 48164,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 45133,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 48167,
+                    "enchant": 3810,
+                    "gems": [
+                      40152
+                    ]
+                  },
+                  {
+                    "id": 47095,
+                    "enchant": 3722,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 48166,
+                    "enchant": 3832,
+                    "gems": [
+                      40113,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47066,
+                    "enchant": 2332,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 48163,
+                    "enchant": 3604,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47145,
+                    "gems": [
+                      40155,
+                      40113,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47190,
+                    "enchant": 3719,
+                    "gems": [
+                      40113,
+                      40133,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 45565,
+                    "enchant": 3606,
+                    "gems": [
+                      40113,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47928,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 46046,
+                    "gems": [
+                      40153
+                    ]
+                  },
+                  {
+                    "id": 45518
+                  },
+                  {
+                    "id": 47188
+                  },
+                  {
+                    "id": 47206,
+                    "enchant": 3834
+                  },
+                  {
+                    "id": 47146
+                  },
+                  {
+                    "id": 47670
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic",
+                "fillerExplosive": "ExplosiveSaroniteBomb"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "blessingOfMight": "TristateEffectImproved",
+                "vampiricTouch": true
+              },
+              "balanceDruid": {
+                "rotation": {
+                  "type": "Default",
+                  "mfUsage": "BeforeLunar",
+                  "isUsage": "OptimizeIs",
+                  "wrathUsage": "RegularWrath",
+                  "useStarfire": true,
+                  "useSmartCooldowns": true,
+                  "maintainFaerieFire": true,
+                  "playerLatency": 200
+                },
+                "options": {
+                  "innervateTarget": {}
+                }
+              },
+              "talentsString": "5102233115331303213305311031-000000000000000000000000000000-205003002000000000000000000",
+              "glyphs": {
+                "major1": 40921,
+                "major2": 40916,
+                "major3": 40923,
+                "minor1": 43335,
+                "minor2": 43331
+              },
+              "profession1": "Engineering",
+              "profession2": "Tailoring",
+              "cooldowns": {},
+              "rotation": {},
+              "reactionTimeMs": 200,
+              "distanceFromTarget": 18,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "powerWordFortitude": "TristateEffectImproved",
+        "strengthOfEarthTotem": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "trueshotAura": true,
+        "leaderOfThePack": "TristateEffectImproved",
+        "icyTalons": true,
+        "totemOfWrath": true,
+        "demonicPactSp": 500,
+        "moonkinAura": "TristateEffectImproved",
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "faerieFire": "TristateEffectImproved",
+        "ebonPlaguebringer": true,
+        "heartOfTheCrusader": true,
+        "totemOfWrath": true,
+        "shadowMastery": true,
+        "bloodFrenzy": true,
+        "sunderArmor": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            805,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 3000,
+      "randomSeed": "1926740714",
+      "debugFirstIteration": true
+    }
+  },
+  {
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceHuman",
+              "class": "ClassRogue",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 48230,
+                    "enchant": 3817,
+                    "gems": [
+                      41398,
+                      49110
+                    ]
+                  },
+                  {
+                    "id": 47060,
+                    "gems": [
+                      40114
+                    ]
+                  },
+                  {
+                    "id": 48228,
+                    "enchant": 3808,
+                    "gems": [
+                      40114
+                    ]
+                  },
+                  {
+                    "id": 45461,
+                    "enchant": 3605,
+                    "gems": [
+                      40157
+                    ]
+                  },
+                  {
+                    "id": 48232,
+                    "enchant": 3832,
+                    "gems": [
+                      40114,
+                      40114
+                    ]
+                  },
+                  {
+                    "id": 47155,
+                    "enchant": 3845,
+                    "gems": [
+                      40114,
+                      40114,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 48231,
+                    "enchant": 3604,
+                    "gems": [
+                      40114,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 46095,
+                    "enchant": 3599,
+                    "gems": [
+                      36766,
+                      36766,
+                      36766
+                    ]
+                  },
+                  {
+                    "id": 46975,
+                    "enchant": 3823,
+                    "gems": [
+                      40114,
+                      40114,
+                      40114
+                    ]
+                  },
+                  {
+                    "id": 45564,
+                    "enchant": 3606,
+                    "gems": [
+                      40114,
+                      40114
+                    ]
+                  },
+                  {
+                    "id": 47934,
+                    "gems": [
+                      40157
+                    ]
+                  },
+                  {
+                    "id": 45608,
+                    "gems": [
+                      40114
+                    ]
+                  },
+                  {
+                    "id": 45609
+                  },
+                  {
+                    "id": 47131
+                  },
+                  {
+                    "id": 46969,
+                    "enchant": 3789,
+                    "gems": [
+                      40157
+                    ]
+                  },
+                  {
+                    "id": 46969,
+                    "enchant": 3789,
+                    "gems": [
+                      40157
+                    ]
+                  },
+                  {
+                    "id": 47521,
+                    "gems": [
+                      40157
+                    ]
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfEndlessRage",
+                "food": "FoodMegaMammothMeal",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfSpeed",
+                "defaultConjured": "ConjuredRogueThistleTea"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfMight": "TristateEffectImproved"
+              },
+              "rogue": {
+                "rotation": {
+                  "minimumComboPointsExposeArmor": 2,
+                  "tricksOfTheTradeFrequency": "Maintain",
+                  "combatFinisherPriority": "CombatPriorityUnknown",
+                  "subtletyFinisherPriority": "SubtletyPriorityUnknown",
+                  "minimumComboPointsPrimaryFinisher": 4,
+                  "minimumComboPointsSecondaryFinisher": 4,
+                  "MultiTargetSliceFrequency": "FrequencyUnknown"
+                },
+                "options": {
+                  "mhImbue": "DeadlyPoison",
+                  "ohImbue": "InstantPoison",
+                  "startingOverkillDuration": 20,
+                  "honorOfThievesCritRate": -1,
+                  "vanishBreakTime": 0.1
+                }
+              },
+              "talentsString": "005303104352100520103231000-0052050050030010000000000000-5010000000000000000000000000",
+              "glyphs": {
+                "major1": 45768,
+                "major2": 42957,
+                "major3": 42973,
+                "minor1": 43376,
+                "minor2": 43379,
+                "minor3": 43378
+              },
+              "profession1": "Engineering",
+              "profession2": "Jewelcrafting",
+              "cooldowns": {},
+              "rotation": {},
+              "reactionTimeMs": 200,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "strengthOfEarthTotem": "TristateEffectImproved",
+        "abominationsMight": true,
+        "leaderOfThePack": "TristateEffectImproved",
+        "icyTalons": true,
+        "swiftRetribution": true,
+        "elementalOath": true,
+        "sanctifiedRetribution": true,
+        "bloodlust": true
+      },
+      "debuffs": {
+        "faerieFire": "TristateEffectImproved",
+        "earthAndMoon": true,
+        "heartOfTheCrusader": true,
+        "shadowMastery": true,
+        "bloodFrenzy": true,
+        "mangle": true,
+        "sunderArmor": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            805,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 3000,
+      "randomSeed": "1932115599",
+      "debugFirstIteration": true
+    }
+  }
+  ]}

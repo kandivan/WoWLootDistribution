@@ -7,7 +7,7 @@ from telemetry import Telemetry
 from dashboard import Dashboard
 from cache import redis_cache
 from rate_limiter import rate_limit
-from database import Database, Player
+from database import Database, Player, Item
 from flask import render_template_string
 import plotly
 import plotly.graph_objs as go
@@ -36,7 +36,8 @@ dashboard = Dashboard(db)
 
 db_instance = Database()
 db_instance.create_tables()
-
+def apply_item_to_player(player: Player, item: Item):
+    pass
 # Routes
 @app.route("/")
 def home():
@@ -92,22 +93,32 @@ def password_change():
 def simulations():
     session = db_instance.get_session()
     players = session.query(Player).all()
+    items = session.query(Item).all()
     session.close()
     output_data = None
     selected_players_data = []
-        
-    return render_template('simulations.html', players=players, selected_players=selected_players_data, output_data=output_data)
+    return render_template('simulations.html', players=players, items=items, selected_players=selected_players_data, output_data=output_data)
 
 @app.route("/plotly_dashboard", methods=["POST"])
 def plotly_dashboard():
     selected_player_ids = request.form.getlist('player_checkbox')
+    selected_item = None
+    selected_item_id = request.form.get('item_select')
+    if selected_item_id:
+        selected_item = db_instance.get_session().query(Item).filter_by(id=selected_item_id).first()
     selected_players_data = []
     for player_id in selected_player_ids:
         selected_player_data = db_instance.get_player_by_id(player_id)
         if selected_player_data:
             selected_players_data.append(selected_player_data)
-
+    result_holder = []
     for player in selected_players_data:
+        holder = {"name": "",
+                  "before_dps": 0,
+                  "after_dps": 0,
+                  "change_in_dps": 0}
+        item_index = selected_item.type
+        player.raid_sim_settings.get("raid").get("parties")[0].get("players")[0].get("equipment").get("items")[item_index]["id"] = selected_item.id
         with tempfile.NamedTemporaryFile(suffix=".json", delete=False, mode='w') as temp_input_file:
             json.dump(player.__dict__.get("raid_sim_settings"), temp_input_file)
 
@@ -122,8 +133,8 @@ def plotly_dashboard():
         db_player = session.query(Player).filter_by(id=player_id).first()
         if db_player:
             db_player = player
-    session.commit()
-    session.close()
+        session.commit()
+        session.close()
 
     # Sort players by raidMetrics.dps.avg in descending order
     sorted_players_data = sorted(
