@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, abort, render_template, redirect, url_for, redirect
-from flask_login import login_required, logout_user, login_user
+from flask_login import login_required, logout_user, login_user, current_user
 from flask_bcrypt import Bcrypt
 from auth import db, login_manager, LoginForm, RegisterForm, get_user, register_user, change_password, ChangePasswordForm
 from events import EventSystem
@@ -7,6 +7,13 @@ from telemetry import Telemetry
 from dashboard import Dashboard
 from cache import redis_cache
 from rate_limiter import rate_limit
+from database import Database, Player
+from flask import render_template_string
+import plotly
+import plotly.graph_objs as go
+import json
+import tempfile
+import subprocess
 
 app = Flask(__name__)
 app.secret_key = 'this_is_a_secret_key'  # Secret key for Flask-Login sessions
@@ -26,6 +33,9 @@ telemetry = Telemetry(db, event_system)
 
 # Initialize dashboard
 dashboard = Dashboard(db)
+
+db_instance = Database()
+db_instance.create_tables()
 
 # Routes
 @app.route("/")
@@ -77,6 +87,79 @@ def password_change():
         else:
             return "Invalid old password.", 400
     return render_template('change_password.html', form=form)
+
+@app.route("/simulations", methods=["GET", "POST"])
+def simulations():
+    session = db_instance.get_session()
+    players = session.query(Player).all()
+    session.close()
+    output_data = None
+    selected_players_data = []
+        
+    return render_template('simulations.html', players=players, selected_players=selected_players_data, output_data=output_data)
+
+@app.route("/plotly_dashboard", methods=["POST"])
+def plotly_dashboard():
+    selected_player_ids = request.form.getlist('player_checkbox')
+    selected_players_data = []
+    for player_id in selected_player_ids:
+        selected_player_data = db_instance.get_player_by_id(player_id)
+        if selected_player_data:
+            selected_players_data.append(selected_player_data)
+
+    for player in selected_players_data:
+        with tempfile.NamedTemporaryFile(suffix=".json", delete=False, mode='w') as temp_input_file:
+            json.dump(player.__dict__.get("raid_sim_settings"), temp_input_file)
+
+        with tempfile.NamedTemporaryFile(suffix=".json", delete=False) as temp_output_file:
+            cmd = ['./wowsimcli.exe', 'sim', '--infile', temp_input_file.name, '--outfile', temp_output_file.name]
+            subprocess.run(cmd)
+
+            with open(temp_output_file.name, 'r') as out_file:
+                output_data = json.load(out_file)
+            player.raid_sim_results = output_data
+        session = db_instance.get_session()
+        db_player = session.query(Player).filter_by(id=player_id).first()
+        if db_player:
+            db_player = player
+    session.commit()
+    session.close()
+
+    # Sort players by raidMetrics.dps.avg in descending order
+    sorted_players_data = sorted(
+        selected_players_data, 
+        key=lambda p: p.raid_sim_results.get("raidMetrics", {}).get("dps", {}).get("avg", 0), 
+        reverse=True
+    )
+
+    y_values = [round(player.raid_sim_results.get("raidMetrics").get("dps").get("avg"), 0) for player in sorted_players_data]
+    
+    data = [
+        go.Bar(
+            x=[player.in_game_name for player in sorted_players_data],
+            y=y_values,
+            text=y_values,   # Add values as hover text
+            hoverinfo='text'
+        )
+    ]
+    layout = go.Layout(
+    title="Player Simulation Results",
+    xaxis=dict(title='Player In-game Name'),
+    yaxis=dict(title='Average DPS'),
+)
+    fig = go.Figure(data=data, layout=layout)
+    graph_json = plotly.offline.plot(fig, output_type='div')
+
+    return render_template_string("""
+        <html>
+            <head>
+                <title>Plotly Dashboard</title>
+            </head>
+            <body>
+                {{ graph_json|safe }}
+            </body>
+        </html>
+    """, graph_json=graph_json)
 
 # Error handlers...
 @app.errorhandler(400)

@@ -1,0 +1,381 @@
+{
+    "raid": {
+      "parties": [
+        {
+          "players": [
+            {
+              "name": "Player",
+              "race": "RaceHuman",
+              "class": "ClassMage",
+              "equipment": {
+                "items": [
+                  {
+                    "id": 47761,
+                    "enchant": 3820,
+                    "gems": [
+                      41285,
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 47144,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47758,
+                    "enchant": 3810,
+                    "gems": [
+                      40133
+                    ]
+                  },
+                  {
+                    "id": 48671,
+                    "enchant": 3722,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47129,
+                    "enchant": 3832,
+                    "gems": [
+                      40133,
+                      40155,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47143,
+                    "enchant": 2332,
+                    "gems": [
+                      40155,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47753,
+                    "enchant": 3604,
+                    "gems": [
+                      40113,
+                      0
+                    ]
+                  },
+                  {
+                    "id": 47084,
+                    "gems": [
+                      40133,
+                      40113,
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 47755,
+                    "enchant": 3872,
+                    "gems": [
+                      40155,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47205,
+                    "enchant": 3606,
+                    "gems": [
+                      40133,
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 46046,
+                    "gems": [
+                      40155
+                    ]
+                  },
+                  {
+                    "id": 47928,
+                    "gems": [
+                      40113
+                    ]
+                  },
+                  {
+                    "id": 45466
+                  },
+                  {
+                    "id": 45518
+                  },
+                  {
+                    "id": 47524,
+                    "enchant": 3854,
+                    "gems": [
+                      40133,
+                      40113
+                    ]
+                  },
+                  {},
+                  {
+                    "id": 47922
+                  }
+                ]
+              },
+              "consumes": {
+                "flask": "FlaskOfTheFrostWyrm",
+                "food": "FoodFishFeast",
+                "defaultPotion": "PotionOfSpeed",
+                "prepopPotion": "PotionOfWildMagic",
+                "defaultConjured": "ConjuredDarkRune",
+                "fillerExplosive": "ExplosiveSaroniteBomb"
+              },
+              "bonusStats": {
+                "stats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "pseudoStats": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "buffs": {
+                "blessingOfKings": true,
+                "blessingOfWisdom": "TristateEffectImproved",
+                "vampiricTouch": true
+              },
+              "mage": {
+                "rotation": {
+                  "type": "Fire",
+                  "blastWithoutMissileBarrageAboveManaPercent": 0.2,
+                  "only3ArcaneBlastStacksBelowManaPercent": 0.15,
+                  "pyroblastDelayMs": 150
+                },
+                "options": {
+                  "armor": "MoltenArmor",
+                  "focusMagicPercentUptime": 99,
+                  "focusMagicTarget": {},
+                  "reactionTimeMs": 300
+                }
+              },
+              "talentsString": "230005033100030000000000000000-0055031012302330053120300351-0000000000000000000000000000",
+              "glyphs": {
+                "major1": 42739,
+                "major2": 45737,
+                "major3": 42751,
+                "minor1": 43364,
+                "minor2": 43357,
+                "minor3": 43360
+              },
+              "profession1": "Engineering",
+              "profession2": "Tailoring",
+              "cooldowns": {},
+              "rotation": {},
+              "distanceFromTarget": 25,
+              "healingModel": {}
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {
+            "manaTideTotems": 1,
+            "heroicPresence": true
+          }
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        },
+        {
+          "players": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "buffs": {}
+        }
+      ],
+      "numActiveParties": 5,
+      "buffs": {
+        "giftOfTheWild": "TristateEffectImproved",
+        "arcaneBrilliance": true,
+        "divineSpirit": true,
+        "demonicPactSp": 250,
+        "swiftRetribution": true,
+        "elementalOath": true,
+        "wrathOfAirTotem": true,
+        "sanctifiedRetribution": true,
+        "manaSpringTotem": "TristateEffectImproved",
+        "bloodlust": true
+      },
+      "debuffs": {
+        "judgementOfWisdom": true,
+        "misery": true,
+        "curseOfElements": true,
+        "heartOfTheCrusader": true,
+        "shadowMastery": true
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            574,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10643,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "simOptions": {
+      "iterations": 30000,
+      "randomSeed": "1447258148",
+      "debugFirstIteration": true
+    }
+  }

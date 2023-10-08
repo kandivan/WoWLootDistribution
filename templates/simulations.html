@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player Data</title>
+</head>
+<body>
+    <form method="post" action="{{ url_for('plotly_dashboard') }}">
+        <label>Select players:</label>
+        {% for player in players %}
+            <div>
+                <input type="checkbox" name="player_checkbox" value="{{ player.id }}">
+                <label>{{ player.discord_name }}</label>
+            </div>
+        {% endfor %}
+        <input type="submit" value="Simulate">
+    </form>
+</body>
+</html>
