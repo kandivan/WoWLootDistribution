@@ -171,9 +171,9 @@ def plotly_dashboard():
         )
     ]
     layout = go.Layout(
-    title="Player Simulation Results",
+    title=f"Player Simulation Results for {selected_item.name}",
     xaxis=dict(title='Player In-game Name'),
-    yaxis=dict(title='Average DPS'),
+    yaxis=dict(title='DPS Change'),
 )
     fig = go.Figure(data=data, layout=layout)
     graph_json = plotly.offline.plot(fig, output_type='div')
@@ -181,7 +181,7 @@ def plotly_dashboard():
     return render_template_string("""
         <html>
             <head>
-                <title>Plotly Dashboard</title>
+                <title>Sim Results Dashboard</title>
             </head>
             <body>
                 {{ graph_json|safe }}
