@@ -9,6 +9,7 @@ from cache import redis_cache
 from rate_limiter import rate_limit
 from database import Database, Player, Item
 from flask import render_template_string
+from sqlalchemy import or_, and_
 import plotly
 import plotly.graph_objs as go
 import json
@@ -93,7 +94,7 @@ def password_change():
 def simulations():
     session = db_instance.get_session()
     players = session.query(Player).all()
-    items = session.query(Item).all()
+    items = session.query(Item).filter(Item.phase == 4, Item.quality == 4).order_by(Item.name)
     session.close()
     output_data = None
     selected_players_data = []
@@ -118,6 +119,19 @@ def plotly_dashboard():
                   "after_dps": 0,
                   "change_in_dps": 0}
         item_index = selected_item.type
+        with tempfile.NamedTemporaryFile(suffix=".json", delete=False, mode='w') as temp_input_file:
+            json.dump(player.__dict__.get("raid_sim_settings"), temp_input_file)
+
+        with tempfile.NamedTemporaryFile(suffix=".json", delete=False) as temp_output_file:
+            cmd = ['./wowsimcli.exe', 'sim', '--infile', temp_input_file.name, '--outfile', temp_output_file.name]
+            subprocess.run(cmd)
+
+            with open(temp_output_file.name, 'r') as out_file:
+                output_data = json.load(out_file)
+            player.raid_sim_results = output_data
+        # Set data prior to changes
+        holder["name"] = player.in_game_name
+        holder["before_dps"] = output_data.get("raidMetrics").get("dps").get("avg")
         player.raid_sim_settings.get("raid").get("parties")[0].get("players")[0].get("equipment").get("items")[item_index]["id"] = selected_item.id
         with tempfile.NamedTemporaryFile(suffix=".json", delete=False, mode='w') as temp_input_file:
             json.dump(player.__dict__.get("raid_sim_settings"), temp_input_file)
@@ -129,6 +143,9 @@ def plotly_dashboard():
             with open(temp_output_file.name, 'r') as out_file:
                 output_data = json.load(out_file)
             player.raid_sim_results = output_data
+        holder["after_dps"] = output_data.get("raidMetrics").get("dps").get("avg")
+        holder["change_in_dps"] = (holder.get("after_dps")-holder.get("before_dps"))
+        result_holder.append(holder)
         session = db_instance.get_session()
         db_player = session.query(Player).filter_by(id=player_id).first()
         if db_player:
@@ -138,16 +155,16 @@ def plotly_dashboard():
 
     # Sort players by raidMetrics.dps.avg in descending order
     sorted_players_data = sorted(
-        selected_players_data, 
-        key=lambda p: p.raid_sim_results.get("raidMetrics", {}).get("dps", {}).get("avg", 0), 
+        result_holder, 
+        key=lambda p: p.get("change_in_dps", 0), 
         reverse=True
     )
 
-    y_values = [round(player.raid_sim_results.get("raidMetrics").get("dps").get("avg"), 0) for player in sorted_players_data]
+    y_values = [round(result.get("change_in_dps"), 0) for result in sorted_players_data]
     
     data = [
         go.Bar(
-            x=[player.in_game_name for player in sorted_players_data],
+            x=[result.get("name") for result in sorted_players_data],
             y=y_values,
             text=y_values,   # Add values as hover text
             hoverinfo='text'

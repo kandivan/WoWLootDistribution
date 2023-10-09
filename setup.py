@@ -1,8 +1,9 @@
 from datetime import datetime
 from database import Database, Player, Item, User
 from datetime import datetime
+from copy import deepcopy
 import json
-
+from config import default_raid_sim_options
 # Assuming you've already defined the above classes and the Database class
 
 # Step 1: Create the database and tables
@@ -16,18 +17,18 @@ with open("./StaticData/playerSims.json", "r") as infile:
 with open("./StaticData/db.json", "r") as itemdbfile:
     item_db = json.load(itemdbfile)
 # Create a new player
-index = 0
 session = db.get_session()
 for simSetting in raid_sim_settings.get("simSettings"):
-    player = Player(discord_name=f"Player_{index}",
-    in_game_name=f"Player_{index}",
-    character_class="",
-    raid_sim_settings=simSetting,
+    default_sim_settings = deepcopy(default_raid_sim_options)
+    default_sim_settings["raid"]["parties"][0]["players"][0] = simSetting.get("raid").get("parties")[0].get("players")[0]
+    player = Player(discord_name=simSetting.get("discord_name"),
+    in_game_name=simSetting.get("in_game_name"),
+    character_class=simSetting.get("raid").get("parties")[0].get("players")[0].get("class").replace("Class", ""),
+    raid_sim_settings=default_sim_settings,
     raid_sim_results = None,
     creation_date=datetime.now(),
     last_update=datetime.now())
     session.add(player)
-    index += 1
 for item in item_db.get("items"):
     _item = Item(**item)
     session.add(_item)
